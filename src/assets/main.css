@@ -1,0 +1,100 @@
+@import './base.css';
+a,
+.green {
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.6s;
+}
+.cabeçalho{
+  background-color: #FD9B00;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+#icon_menu{
+  width: 1.563rem;
+  height: 1.563rem;
+  margin-left: 0.625rem;
+}
+#icon_energia{
+  width: 3.125rem;
+  height: 3.125rem;
+}
+#escrita{
+  margin-right: auto;
+  margin-left: auto;
+  line-height: 1.25rem;
+}
+#portal{
+  font-size: small;
+  color: #898989;
+}
+#solar{
+  font-size: 25pt;
+  color: #f2f2f2;
+}
+#logo_cabeçalho{
+  width: 1.563rem;
+  height: 1.563rem;
+}
+main{
+  display: flex;
+}
+.fundo_titulo{
+  width: 100%;
+  margin: 0.031rem 0rem;
+  padding: 0.625rem 0.625rem 0.625rem 0.625rem;
+  background-color: #FD9B00;
+  color: #f2f2f2;
+}
+#espaço_usina{
+  display: flex;
+  align-items: center;
+}
+#usina{
+  width: 25rem;
+  height: 16.875rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+#info_energia{
+  display: block;
+  background-color: #f2f2f2;
+  border-radius: 0.5rem;
+  color: #222222;
+  margin: -2.5rem 0.625rem;
+  margin-bottom: -3.688rem;
+  font-size: 20pt;
+  height: 6.25rem;
+  display: flex;
+}
+#qnt_energia{
+  margin: auto;
+  display: flex;
+  color: #FD9B00;
+  align-items: center;
+}
+#qnt_energia_num{
+  margin: 2.813rem 3.438rem;
+  color: #FD9B00;
+  font-size: 12pt;
+}
+#num_energ{
+  font-weight: bold;
+  font-size: 25pt;
+}
+#ene_dia{
+  width: 55%;
+  height: 50%;
+  padding-top: 0.938;
+  position: absolute;
+  font-size: 10pt;
+  font-weight: bold;
+  text-align: center;
+  position: absolute;
+}
+#pos_info{
+  padding-top: 4.375rem;
+}
+main{
+  background-color: #8a8a8a;
+}
