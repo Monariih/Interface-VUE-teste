@@ -57,7 +57,6 @@ main{
   margin-right: auto;
 }
 #info_energia{
-  display: block;
   background-color: #f2f2f2;
   border-radius: 0.5rem;
   color: #222222;
@@ -66,6 +65,21 @@ main{
   font-size: 20pt;
   height: 6.25rem;
   display: flex;
+}
+#info_energia2{
+  background-color: #f2f2f2;
+  border-radius: 0.5rem;
+  color: #222222;
+  margin: -1rem 0.625rem;
+  margin-bottom: -3.688rem;
+  font-size: 20pt;
+  height: 6.25rem;
+  display: flex;
+  text-align: center;
+}
+#colb{
+  color: #181818;
+  padding-bottom: 100px;
 }
 #qnt_energia{
   margin: auto;
@@ -85,7 +99,7 @@ main{
 #ene_dia{
   width: 55%;
   height: 50%;
-  padding-top: 0.938;
+  padding-top: 0.938rem;
   position: absolute;
   font-size: 10pt;
   font-weight: bold;
@@ -95,6 +109,27 @@ main{
 #pos_info{
   padding-top: 4.375rem;
 }
+#base_ft{
+  width: 100%;
+}
 main{
-  background-color: #8a8a8a;
+  background-color: #bdbdbd;
+}
+#tabela_ela{
+  border-collapse: collapse;
+  margin: auto;
+  border: 2px solid #bdbdbd;
+  text-align: center;
+  color: #181818;
+}
+.tabe_info{
+  font-size: 28pt;
+  font-weight: bolder;
+  color: #181818;
+}
+td{
+  border: 1px solid #383838;
+  height: 8rem;
+  width: 12rem;
+  padding: 1.5rem;
 }

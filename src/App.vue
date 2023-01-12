@@ -5,7 +5,10 @@ import IconDocumentation from "@/components/icons/IconDocumentation.vue";
 
 export default defineComponent({
   components: {IconDocumentation}
+
 })
+
+
 </script>
 
 <template>
@@ -20,7 +23,7 @@ export default defineComponent({
       </div>
     </header>
     <main>
-      <div>
+      <div id="base_ft">
         <div class="fundo_titulo">
           Usina - EHF9B78EAI4127 - Lucas Monari dos Santos
         </div>
@@ -38,9 +41,28 @@ export default defineComponent({
         </div>
         </div>
         <div id="pos_info">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi cum doloremque doloribus explicabo hic illo, itaque laudantium modi nisi odit, officiis omnis optio quo sapiente similique sint sit velit, voluptate.
+          <table id="tabela_ela">
+            <tr>
+              <td>Potencia ativa:  <span class="tabe_info">5,0</span>kW  <p>instantâneos</p></td>
+              <td>Árvores plantadas: <span class="tabe_info">234</span><p>desde o inicio</p></td>
+            </tr>
+            <tr>
+              <td>Energia gerada: <span class="tabe_info">158,6</span>kWh <p>no mês</p></td>
+              <td>Energia Total: <span class="tabe_info">17,2</span>MWh <p>gerada</p></td>
+            </tr>
+
+          </table>
+        </div>
+        <div id="info_energia2">
+          <div id="ene_dia">Equivalente a:</div>
+
+          <div id="qnt_energia_num"><spam id="num_energ">848,5</spam>km </div>
+          <div id="qnt_energia">
+            <img id="icon_energia" src="https://cdn-icons-png.flaticon.com/512/3444/3444036.png">
+          </div>
         </div>
       </div>
+
 
 
   </main>
